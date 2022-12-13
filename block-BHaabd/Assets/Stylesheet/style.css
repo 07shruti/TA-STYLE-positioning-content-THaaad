@@ -46,3 +46,83 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+/* Custom styles*/
+*, 
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    font-size: 12px;
+    background-color: antiquewhite;
+    padding: 22px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: white;
+}
+
+/* Clearfix */
+.clearfix::before,
+.clearfix::after {
+    content: "";
+    display: table;
+}
+.clearfix::after {
+    clear: both;
+}
+
+ /* Header */
+ h1{
+    font-size: 38px;
+    text-align: center;
+    padding: 22px 0;
+ }
+
+ 
+ .Left {
+    float: left;
+ }
+ aside {
+    width: 25%;
+}
+article{
+    width: 50%;
+}
+
+.left-sidebar p
+{
+    font-size: 18px;
+    font-weight: 100;
+}
+
+/* Article */
+.article img {
+    width: 100%;
+ }
+.article-heading {
+    font-size: 38px;
+    font-weight: 300;
+    padding-bottom: 16px;
+}
+.article p {
+    font-size: 15px;
+    margin-top: 18px;
+    text-align: justify;
+}
+.para-3 {
+    padding: 0 16px;
+    
+}
+.right-sidebar {
+    font-size: 22px;
+    font-weight: 600;
+    padding-left: 25px;
+}
